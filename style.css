@@ -4,13 +4,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/*Preload background*/
-body::after{
-    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-    content:url("hero_background.png");
-    /*content:url(img01.png) url(img02.png) url(img03.png) url(img04.png);*/
-}
-
 .main-container {
   perspective: 1px;
   transform-style: preserve-3d;
