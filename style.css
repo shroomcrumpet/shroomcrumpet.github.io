@@ -17,10 +17,12 @@ body {
   flex: 1 0 auto;
   position: relative;
 	height: 100vh;
-/*  More subtle parallax scroll speed
-  transform: translateZ(-5px) scale(6);*/
-  transform: translateZ(-1px) scale(2);
+	width: 100vw;
+  /*More subtle parallax scroll speed*/
+  transform: translateZ(-5px) scale(6);
+  /*transform: translateZ(-1px) scale(2);*/
   z-index: -1;
+
 	/*background-image: url("hero_background.png");*/
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url("hero_background.png");
 	background-size: cover;
@@ -48,9 +50,9 @@ body {
 }
 
 .content-container {
+  background-color: white;
   display: block;
   position: relative;
-  background-color: white;
   z-index: 1;
 }
 
