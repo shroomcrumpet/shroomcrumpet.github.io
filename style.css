@@ -4,6 +4,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.loading {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+	z-index: 9999;
+}
+
 .main-container {
   perspective: 1px;
   transform-style: preserve-3d;
